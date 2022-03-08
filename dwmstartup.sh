@@ -29,6 +29,35 @@ tag2() {
 	xdotool key Return sleep 0.1
 }
 
+# commands / TODO
+tag3() {
+	xdotool key alt+3 sleep 0.1
+	xdotool key Shift+alt+Return sleep 0.1
+	xdotool type "cd commands" && sleep 0.1
+	xdotool key Return sleep 0.1
+	xdotool type "sudo vim TODO.txt" && sleep 0.1
+	xdotool key Return sleep 0.1
+	xdotool type "5790" && sleep 0.1
+	xdotool key Return sleep 0.1
+	xdotool key Shift+alt+Return sleep 0.1
+	xdotool type "cd commands" && sleep 0.1
+	xdotool key Return sleep 0.1
+	xdotool key ctrl+l sleep 0.1
+	xdotool key Shift+alt+Return sleep 0.1
+	xdotool type "cd commands" && sleep 0.1
+	xdotool key Return sleep 0.1
+	xdotool key ctrl+l sleep 0.1
+	xdotool type "ls -l" && sleep 0.1
+	xdotool key Return sleep 0.1
+}
+
+# lf / bashtop
+tag4() {
+	:
+}
+
 tag1
 tag2
+tag3
+#tag4
 
