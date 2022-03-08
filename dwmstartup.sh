@@ -49,6 +49,7 @@ tag3() {
 	xdotool key ctrl+l sleep 0.1
 	xdotool type "ls -l" && sleep 0.1
 	xdotool key Return sleep 0.1
+	xdotool type "sudo vim" && sleep 0.1
 }
 
 # lf / bashtop
