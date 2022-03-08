@@ -14,7 +14,7 @@ tag1() {
 
 # lf / bashtop
 tag2() {
-	xdotool key alt+4 sleep 0.1
+	xdotool key alt+2 sleep 0.1
 	xdotool key Shift+alt+Return sleep 0.1
 	xdotool key Shift+alt+Return sleep 0.1
 	xdotool type "lf" && sleep 0.1
@@ -26,7 +26,7 @@ tag2() {
 
 # archmathbike.sh
 tag3() {
-	xdotool key alt+2 sleep 0.1
+	xdotool key alt+3 sleep 0.1
 	xdotool key Shift+alt+Return sleep 0.1
 	xdotool key Shift+alt+Return sleep 0.1
 	xdotool type "cd archmathbike" && sleep 0.1
@@ -43,7 +43,7 @@ tag3() {
 
 # commands / TODO
 tag4() {
-	xdotool key alt+3 sleep 0.1
+	xdotool key alt+4 sleep 0.1
 	xdotool key Shift+alt+Return sleep 0.1
 	xdotool type "cd commands" && sleep 0.1
 	xdotool key Return sleep 0.1
