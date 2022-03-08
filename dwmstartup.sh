@@ -53,11 +53,17 @@ tag3() {
 
 # lf / bashtop
 tag4() {
-	:
+	xdotool key alt+4 sleep 0.1
+	xdotool key Shift+alt+Return sleep 0.1
+	xdotool type "lf" && sleep 0.1
+	xdotool key Return sleep 0.1
+	xdotool key Shift+alt+Return sleep 0.1
+	xdotool type "bashtop" && sleep 0.1
+	xdotool key Return sleep 0.1
 }
 
 tag1
 tag2
 tag3
-#tag4
+tag4
 
