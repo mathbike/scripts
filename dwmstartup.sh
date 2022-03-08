@@ -18,9 +18,11 @@ tag2() {
 	xdotool key alt+2 sleep 0.1
 	# 1
 	xdotool key Shift+alt+Return sleep 0.1
-	xdotool type "sudo vim TODO.txt" && sleep 0.1
+	xdotool type "sudo vim ~/scripts/TODO.txt" && sleep 0.1
 	xdotool key Return sleep 0.1
-	# 2
+	xdotool type "5790" && sleep 0.1
+	xdotool key Return sleep 0.1
+	#2
 	xdotool key Shift+alt+Return sleep 0.1
 	xdotool type "lf" && sleep 0.1
 	xdotool key Return sleep 0.1
