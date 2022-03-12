@@ -41,6 +41,8 @@ close() {
 	xdotool key Shift+alt+c sleep 0.1
 	xdotool key Shift+alt+c sleep 0.1
 	xdotool key Shift+alt+c sleep 0.1
+	# tag 9
+	xdotool key alt+8 sleep 0.1
 }
 
 close
