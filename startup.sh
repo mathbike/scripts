@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# set screen brightness
-#xrandr --output eDP-1 --brightness 1
+	# set screen brightness
+	# xrandr --output eDP-1 --brightness 1
 
 asus() {
 	# disable touchscreen
@@ -17,7 +17,7 @@ hp() {
 	xinput -disable 15
 	# disable webcam
 	xinput -disable 13
-       # disable IR camera
+        # disable IR camera
 	xinput -disable 14       
 }
 
@@ -26,11 +26,12 @@ T420() {
 }
 
 X220() {
-	:
+	# disable webcam
+	xinput -disable 10
 }
 
 #asus
-hp
+#hp
 #T420
-#X220
+X220
 
